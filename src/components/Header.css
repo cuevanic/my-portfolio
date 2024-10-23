@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+header {
+  padding: 10px; /* Padding around the header */
+  border-bottom: 5px solid white; /* White line below the header */
+}
+
+nav {
+  display: flex; /* Flexbox for the navigation */
+  justify-content: flex-end; /* Align items to the right */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styling */
+  display: flex; /* Use flexbox for horizontal layout */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+  margin: 0 20px; /* Add horizontal spacing between items */
+}
+
+nav ul li a {
+  color: white; /* Text color for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+  color: #fff; /* Change color on hover if needed */
+}

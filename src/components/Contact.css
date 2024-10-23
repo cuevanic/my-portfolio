@@ -1,0 +1,48 @@
+/* src/components/Contact.css */
+#contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 300px; /* Set a maximum width for the form */
+  margin: 0 auto;   /* Center the form */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;        /* Space between form groups */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+}
+
+label {
+  font-weight: bold; /* Make labels bold */
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;     /* Rounded corners */
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none;         /* Remove outline */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
