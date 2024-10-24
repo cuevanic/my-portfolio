@@ -13,7 +13,6 @@ const Skills = () => {
             <li>Java</li>
             <li>Python</li>
             <li>JavaScript</li>
-            <li>HTML & CSS</li>
           </ul>
         </div>
         <div className="skill-item">
